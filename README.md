@@ -18,7 +18,17 @@ A [Framer](http://framerjs.com) module for quantitative usability testing using 
 
 You can also download the abby.framer project folder to skip some of the steps
 
-##Parse set up
+## Setting up Parse
+1. Create an App if you don't have one already within Framer
+2. Create a class named 'Person'
+3. Create the following columns
+  * time - *String*
+  * email - *String*
+  * errors - *Array*
+  * success - *Boolean*
+
+The data collected from your prototype will be submitted as rows into the same class. The downside of using Parse is that this prototype won't function offline.
+
 
 
 
