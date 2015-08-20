@@ -33,7 +33,7 @@ The data collected from your prototype will be submitted as rows into the same c
 * The intro screen that collects the email can and probably should be modified depending on your test.
 * Make sure to place `abby.init()` at the very end of your prototype code.
 * Use `abby.logError('describe the error')` on interactions to log the incorrect interactions they make while trying to complete the task.
-* Place `abby.end()` to end the prototype if they didn't complete it correctly and use `abby.success()` to mark when the task is completed.
+* Place `abby.end()` to end the prototype if they didn't complete the task (either use it at a deadend or put it on a timer and place `abby.success()` within the interaction to mark when the task is completed.
 
 
 
